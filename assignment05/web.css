@@ -66,4 +66,9 @@ dt {
 
 .contact {
     font-size: 90%;
+    list-style-type: none;
+}
+
+.address {
+    list-style: none;
 }
