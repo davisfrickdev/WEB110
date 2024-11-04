@@ -13,7 +13,7 @@ nav {
     color: aliceblue;
     font-size: 32px;
 }
-#right {
+.right {
     float:right
 }
 
@@ -31,7 +31,7 @@ img {
     width: 400px;
     height: 400px;
 }
-#shadow {
+.shadow {
     /* text-shadow: rgba(37, 35, 35, 0.767) 1px 0 10px; */
     width: max-content;
     margin-left: auto;
@@ -39,7 +39,7 @@ img {
     font-size: 52px;
     color: aliceblue;
 }
-#subtitle {
+.subtitle {
     margin-top: 0px;
     padding: 0px;
     text-align: center;
@@ -49,5 +49,21 @@ img {
 footer {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
+ol, ul{
+
+    
+    text-align: left; /* Ensures text aligns properly within centered list */
+    list-style-position: inside;
+
+}
+
+a:link {
+    color: aliceblue; /* Blue for unclicked links */
+}
+
+a:visited {
+    color: aliceblue; /* Blue for unclicked links */
+}

@@ -1,65 +1,105 @@
 <!DOCTYPE html>
+<!--- Davis Frick 11/3/2024 -->
+
 <!-- MEET REQUIREMENTS & VALIDATE
 1. About me
 2. Technical Skills/Technologies git/py/c++
 3. Background? -->
-<html>
+<html lang="en">
     
-    <header>
+    <head>
         <meta charset="utf-8">
         <title>Davis Frick</title>
         <link rel="stylesheet" type="text/css" href="midt.css">
-        
-    </header>
+    </head>
     <!--nav
     1. visibility 
     2. hover -->
     <div>
         <nav>
-            <ul>
+            <ul class="hori"> <!-- Duplicate  Class identifiers cannot be simplified without breaking functionality
+                        ERR with validator?-->
                 <li class="hori"><a href="index.html">About</a>&nbsp;&nbsp;&nbsp;</li>
-                <li id="right"class="hori"><a href="projects.html">Projects</a>&nbsp;&nbsp;&nbsp;</li>
-                <li id="right"class="hori"><a href="socials.html">Connect</a>&nbsp;&nbsp;&nbsp;</li>
+                <li class="hori right"><a href="projects.html">Projects</a>&nbsp;&nbsp;&nbsp;</li>
+                <li class="hori right"><a href="socials.html">Connect</a>&nbsp;&nbsp;&nbsp;</li>
             </ul>
         </nav>
     </div>
 
     
     <!--About me-->
-    <body>
+    <main>
         <div id="wrapper">
             
                 <h1 class="aboutme">Davis Frick</h1>
-                <h2 id="subtitle">Student Developer</h2>
+                <h2 class="subtitle">Student Developer</h2>
 
         </div>
 
-    </body>
+    </main>
     <footer> <!--Technologies-->
-        <h2 id="shadow">Technologies</h2>
-        <h4 id="subtitle">HTML5/CSS3, Github, Python, C++</h4>
-        <article>
+
+        <article class="subtitle">
+            <h2 class="shadow">Technologies</h2>
+            <h4 class="subtitle">HTML5/CSS3, Github, Python, C++</h4>
             <figure class="hori"> <!--html-->
-                <img src="images/html_icon.png">
+                <img alt="HTML" src="images/html_icon.png">
                 
             </figure>
             <figure class="hori"> <!--css-->
-                <img src="images/css_icon.png">
+                <img alt="CSS" src="images/css_icon.png">
                 
             </figure>
             <figure class="hori">
-                <img src="images/git_icon.png">
+                <img alt="Git" src="images/git_icon.png">
                 
             </figure>
             <figure class="hori">
-                <img src="images/python_icon.png">
+                <img alt="Python3" src="images/python_icon.png">
                 
             </figure>
             <figure class="hori">
-                <img src="images/cpp_icon.png">
+                <img alt="C++" src="images/cpp_icon.png">
                 
             </figure>
         </article>
+    
+    <!-- add info +++  contact form-->
+    
+        <h2 class="shadow">Craft-Based Programmer</h2>
+        <ol class="subtitle">
+            <li>
+                The optimal solution is the top priority.
+            </li>
+            <li>
+                Commit to open source projects.
+            </li>
+            <li>
+                Low-level, precise control over computer hardware, like an instrument.
+            </li>
+            <li>
+                Reviewing and analyzing code.
+            </li>
+            <li>
+                Creating iterable projects.
+            </li>
+        </ol>
+        <ul class="subtitle">
+            <li>
+                <a href="mailto:dfrick@stumail.jccc.edu">Email</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/davis-frick-ba0a6a223/">LinkedIn</a>
+            </li>
+            <li>
+                <a href="https://www.twitch.tv/arribadualius">Live</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@Dudedork/videos">Gaming</a>
+            </li>
+            <li>
+                <a href="mailto:davis.frick2001@gmail.com">Personal Email, open to Computer Science topics</a>
+            </li>
+        </ul>
     </footer>
-    <!--contact form-->
 </html>
